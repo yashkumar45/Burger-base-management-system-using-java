@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T07:34:26.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="m6zASyf8GKYZcueXE_hs" type="github"><diagram id="Eg5V33x3ZhJF3AWwBipv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-30T08:27:44.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="jbFNjNqe46Gin-zg8zav" type="github">
+  <diagram id="OARBjtrLtVOgNuFYZYwk" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-1" value="Bluetooth is supported&amp;nbsp;&lt;br&gt;or not" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-2" value="Bluetooth is on/off" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-3" value="Bluetooth discovery&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="250" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.449;exitY=1.045;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_O7FwZfaPEQ1cjq1ApKF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="148" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-6" value="App wont work" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="105" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_O7FwZfaPEQ1cjq1ApKF-1" target="_O7FwZfaPEQ1cjq1ApKF-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-8" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-9" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="145" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_O7FwZfaPEQ1cjq1ApKF-2" target="_O7FwZfaPEQ1cjq1ApKF-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_O7FwZfaPEQ1cjq1ApKF-3" target="_O7FwZfaPEQ1cjq1ApKF-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="153" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-12" value="Select devices from&amp;nbsp;&lt;br&gt;phone settings app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-13" value="Start Pairing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_O7FwZfaPEQ1cjq1ApKF-12" target="_O7FwZfaPEQ1cjq1ApKF-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_O7FwZfaPEQ1cjq1ApKF-13" target="_O7FwZfaPEQ1cjq1ApKF-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="540" as="sourcePoint" />
+            <mxPoint x="155" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="83" y="540" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-17" value="List of paired devices&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="81.75" y="540" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-18" value="Device 1 being connected" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="580" width="137.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-19" value="Device 2 being connected" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85.5" y="610" width="137.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-20" value="Device 3 being connected" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="84.25" y="640" width="137.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_O7FwZfaPEQ1cjq1ApKF-21" value="Device being paired" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="700" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
